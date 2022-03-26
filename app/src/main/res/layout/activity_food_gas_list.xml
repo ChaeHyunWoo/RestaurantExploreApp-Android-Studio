@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8E0F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:textSize="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="용우동\n용우동(4500원)/옛날튀김우동(5500원)/등심돈까스(7500원)\n영업시간 : 매일 09:00 - 22:00\n매장번호 : 041-554-0208"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="자라쿠라멘\n돈코츠라멘(6500원)/부타동(6500원) /규동(6500원) \n영업시간 : 매일 11:00 ~ 21:00\n매장번호 : 041-904-2590"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="은화수 식당\n메뉴 : 하외이 돈가스(7000원)/고구마매콤이돈가스(8500원) /경양식 돈가스(6500원)\n영업시간 : 매일 10:30 ~ 21:00 \n매장번호 : 041-566-6622"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="8dp"
+            android:text="도리돈밥\n메뉴 : 해물순두부찌개(5000원)/치즈돈까스(7500원)/치도리(16000원)\n영업시간 : 10:00~20:00 \n매장번호 :010-2526-1652"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="자세한 정보는 이미지를 터치하세요!"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/exit1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="exit" />
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="홈" />
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:onClick="onClick"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

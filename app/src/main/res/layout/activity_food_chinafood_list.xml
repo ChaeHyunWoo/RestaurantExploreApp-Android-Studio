@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8E0F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:textSize="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="8dp"
+            android:text="짜우\n짜장면(5000원)/간짜장(6000원)/짬뽕(6000원)\n영업시간 : 매일09:00~ 21:00\n매장번호 :041-552-0401"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/exit1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="exit" />
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="홈" />
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:onClick="onClick"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

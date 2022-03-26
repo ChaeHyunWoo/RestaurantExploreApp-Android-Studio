@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8E0F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:textSize="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="지지고\n나이스라이스(4000원)/누들누들(4000원)/햄롤(2500원)\n영업시간 : 10:00 - 20:00\n매장번호 :041-556-6999"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="한솥 도시락\n동백(5000원)/치킨제육(4400원)/돈까스도련님(3900원)\n영업시간 : 평일 09:00 - 21:00\n매장번호 : 041-562-0402"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="알촌\n순한 알밥(3500원)/매콤알밥(3900원)/매콤제육(4800원)\n영업시간 : 평일 09:00 - 21:00\n매장번호 : 041-555-6285"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="봉구스밥버거\n봉구스밥버거(2000원)/김치제육밥버거(3100원)/봉순이 밥버거(2500원)\n영업시간 : 매일 11:00 ~ 21:00  일요일 휴무\n매장번호 : 041-558-8861"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="캠버스컵밥\n참치마요컵밥(3200원) /제육컵밥(3500원)/오리훈제컵밥(3700원)\n영업시간 : 평일 09:30 - 21:00\n매장번호 : 041-522-1030"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="주먹밥 하우스\n순두부찌개(5000원)  /매운참치주먹밥(3200원)/치킨마요컵밥(4200원)\n영업시간 : 평일 07:00 - 20:30\n매장번호 : 041-551-5174"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/exit1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="exit" />
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="홈" />
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:onClick="onClick"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

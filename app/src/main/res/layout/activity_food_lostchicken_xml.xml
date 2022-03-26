@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8E0F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:textSize="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="마라탕.샹궈\n셀프 -마라탕1800원(100g당)/마라샹궈 3000원(100g당)/추가-고기(3000원), 꼬치(1000원)\n영업시간 : 10:00~ 20:00\n매장번호 :매장번호없음"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="매운갈비찜불돈\n간장갈비찜(1인분:6900원)/매운갈비찜(1인분:6900원)/묵은지갈비찜(1인분:7900원)\n영업시간 : 10:00~ 20:00\n매장번호 : 041-552-0949"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="서울뚝배기\n갈비탕(8500원)/내장탕(7500원) /우거지해장국(7000원)\n영업시간 : 10:00~20:00\n매장번호 : 041-569-3004"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="큰맘할매순대국\n돌솥치즈제육(6000원)/순대국(6000원)  /얼큰버섯순대국(7000원)\n영업시간 : 10:00~20:00\n매장번호 : 041-562-2244"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="이미지"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="8dp"
+            android:text="동궁찜닭\n동궁황금찜닭_한마리(25000원)/동궁간장찜닭(25000원)/동궁고추장찜닭(25000원)\n영업시간 : 10:00~19:00\n매장번호 : 041-522-4589"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/exit1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="exit" />
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="홈" />
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:onClick="onClick"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
